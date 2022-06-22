@@ -389,40 +389,40 @@ width: 100%;   height: 630px;
 #Carousel1 .frame-1
 {
    background-color: transparent;
-   background-image: url('images/TutorBanner-3-1.jpg');
-   background-repeat: space;
+   background-image: url('images/vbann 2.jpg');
+   background-repeat: no-repeat;
    background-position: left top;
    background-size: contain;
 }
 #Carousel1 .frame-2
 {
    background-color: transparent;
-   background-image: url('images/preschool-tutor-service-banner-design-template-00d3fc803b78ce48f1034ff3b7382dab_screen.jpg');
-   background-repeat: repeat-y;
+   background-image: url('images/TutorBanner-3-1.jpg');
+   background-repeat: space;
    background-position: left top;
    background-size: contain;
 }
 #Carousel1 .frame-3
 {
    background-color: transparent;
-   background-image: url('images/PTfbbanner.jpg');
-   background-repeat: space;
+   background-image: url('images/vbann.jpg');
+   background-repeat: no-repeat;
    background-position: left top;
    background-size: contain;
 }
 #Carousel1 .frame-4
 {
    background-color: transparent;
-   background-image: url('images/vbann 2.jpg');
-   background-repeat: no-repeat;
+   background-image: url('images/preschool-tutor-service-banner-design-template-00d3fc803b78ce48f1034ff3b7382dab_screen.jpg');
+   background-repeat: space;
    background-position: left top;
    background-size: contain;
 }
 #Carousel1 .frame-5
 {
    background-color: transparent;
-   background-image: url('images/vbann.jpg');
-   background-repeat: no-repeat;
+   background-image: url('images/PTfbbanner.jpg');
+   background-repeat: space;
    background-position: left top;
    background-size: contain;
 }
